@@ -9,6 +9,8 @@ body {
     */
 
 .topbar {
+    background-color: black;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -105,4 +107,7 @@ body {
     50% {
         opacity: 0;
     }
+}
+
+#temp {
 }
