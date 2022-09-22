@@ -9,6 +9,7 @@ body {
     */
 
 .topbar {
+    width: 100%;
     background-color: black;
 
     display: flex;
@@ -19,6 +20,7 @@ body {
 
     /* MAKE THE THING STICKY */
     position: fixed;
+    top: 0;
 }
 
 /* BOTH SIDES OF THE NAVBAR */
@@ -60,6 +62,8 @@ body {
 .nav-left-button:hover {
     color: black;
 
+    font-style: italic;
+
     box-shadow: inset 100px 0 0 0 white;
 }
 
@@ -97,17 +101,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: clamp(12px, 2.5vw, 24px) /*2.5vw*/;
 }
 
 #blink-cursor {
-    animation: blinker 1s linear infinite;
+    animation: blinker 1s step-start infinite;
 }
 
 @keyframes blinker {
     50% {
         opacity: 0;
     }
-}
-
-#temp {
 }
