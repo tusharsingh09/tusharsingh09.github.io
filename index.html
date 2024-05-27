@@ -3,9 +3,11 @@
 <html>
     <!-- LINKING CSS  -->
     <head>
+        <title>tushar(frost)</title>
         <!-- NOTE: CSS Stylesheets here -->
         <link rel="stylesheet" href="./style/bg_topbar.css">
         <link rel="stylesheet" href="./style/about_me.css">
+        <link rel="stylesheet" href="./style/skills.css">
     </head>
     
     <!-- TOPBAR (flex) -->
@@ -17,15 +19,15 @@
             </button>
         </a>
 
-        <a href="">
+        <a href="#skills">
             <button class="topbar_button">
-                Projects
+                Skills
             </button>
         </a>
 
         <a href="">
             <button class="topbar_button">
-                Skills
+                Projects
             </button>
         </a>
 
@@ -43,6 +45,7 @@
     </div>
     <!-- TOPBAR (flex) END  -->
 
+    <!-- ABOUT ME -->
     <div id="about_me">
         <h1 id="about_me_head">About Me</h1>
 
@@ -56,6 +59,29 @@
             and <u>YOU</u>!<br><br>
             You can visit the <u>Extra</u> page if you wanna know more about my hobbies and stuff!
         </p2>
+    </div>
+    <!-- ABOUT ME (end) -->
+    
+    <!-- SKILLS -->
+    <div id="skills">
+        <div id="skills_head"> Skills </div>
+        <!-- NOTE: Icons along links -->
+        <div id="skills_icons">
+            <!-- NOTE: Images here -->
+            <h1>Although I keep <br>learning new stuff</h1>
+            <h1>:</h1>
+            <a href="https://gcc.gnu.org/" class="skills_language">
+                <img src="./res/c.svg">
+            </a>
+
+            <a href="https://gcc.gnu.org/" class="skills_language">
+                <img src="./res/cpp.svg">
+            </a>
+
+            <a href="https://www.python.org/" class="skills_language">
+                <img src="./res/python.svg">
+            </a>
+        </div>
     </div>
 
 </html>

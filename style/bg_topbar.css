@@ -6,6 +6,8 @@ body{
 }
 
 #topbar{
+    background-color: black;
+
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -13,6 +15,8 @@ body{
     position: sticky;
     top: 0px;
     padding: 5px 0;
+
+    box-shadow: 0 0 10px 10px black;
 }
 
 .topbar_button{
